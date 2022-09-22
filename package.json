@@ -2,10 +2,14 @@
   "name": "comp229-f2022-week2-lab",
   "version": "1.0.0",
   "description": "WebAppDev Bonus asst DD",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Darshmeen Dhillon",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "express": "^4.18.1"
+  }
 }
